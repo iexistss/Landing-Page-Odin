@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+.hero {
+  background-color: #1F2937;
+  color: rgba(255, 255, 255, 0.764);
+}
+
+.hero h1 {
+  font-size: 40px;
+  color: #F9FAF8;
+  font-weight: 900;
+  margin-bottom: 0;
+}
+
+.hero-content {
+  padding: 40px 40px 40px 0;
+  flex: 1;
+}
+
+.Image {
+  flex: 1;
+}
+
+.hero p {
+  font-size: 16px;
+  margin-top: 4px;
+}
+
+.hero button {
+  background-color: #3882F6;
+  color: aliceblue;
+  border-radius: 5px;
+  border: none;
+  padding: 7px 25px;
+}
+
+.hero .main {
+  font-size: 18px;
+  font-weight: 900;
+  color: #F9FAF8;
+}
+
+.links {
+  display: flex;
+  gap: 30px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 90px 0 90px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 90px 60px 90px;
+}
+
+.Image img {
+  width: 100%;
+  height: 225px;
+  object-fit: cover;
+}
+
+.info {
+  padding-bottom: 60px;
+}
+
+h2 {
+  text-align: center;
+  color: #1F2937;
+  font-size: 40px;
+}
+
+.parts {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 70px;
+}
+
+.parts div {
+  width: 200px;
+}
+
+.parts img {
+  width: 200px;
+  height: 200px;
+  border: 5px solid #3882F6;
+  border-radius: 20px;
+}
+
+.parts p {
+  color: #4b5563;
+  margin-top: 8px;
+}
